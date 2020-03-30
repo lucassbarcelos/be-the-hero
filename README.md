@@ -7,7 +7,7 @@
   </a>
 </p><br>
 
-### :rocket: Tecnologias usadas
+### :book: Dependeces
 - [Node.js](https://nodejs.org/en/)
 - [Expo](https://expo.io/)
 - [Express](https://expressjs.com/pt-br/)
@@ -19,7 +19,7 @@
 - [Jest](https://www.npmjs.com/package/jest)
 
 ### :game_die: Code Master ?
-[Diego Fernandes](https://github.com/diego3g)
+- [Diego Fernandes](https://github.com/diego3g)
 
 <h1 align="center">Mobile </h1>
 <h4 align="center">
