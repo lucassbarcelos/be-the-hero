@@ -5,8 +5,8 @@
   <a href="https://rocketseat.com.br">
     <img alt="A Rocketseat Education Project" src="https://img.shields.io/badge/made%20by-Rocketseat-green">
   </a>
-</p>
-<br>
+</p><br>
+
 ### :rocket: Tecnologias usadas
 - [Node.js](https://nodejs.org/en/)
 - [Expo](https://expo.io/)
