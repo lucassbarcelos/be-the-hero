@@ -52,7 +52,7 @@ export default function Incidents() {
         </Text>
       </View>
 
-      <Text style={styles.title}>Bem-Vindo!</Text>
+      <Text style={styles.title}>Saco pdp!</Text>
       <Text style={styles.description}>
         Escolha um dos casos abaixo e salve o dia.
       </Text>
@@ -60,7 +60,7 @@ export default function Incidents() {
         data={incidents}
         style={styles.incidentList}
         showsVerticalScrollIndicator={false}
-        keyExtractor={incident => String(incident.id)}
+        keyExtractor={(incident) => String(incident.id)}
         onEndReached={loadIncidents}
         onEndReachedThreshold={0.2}
         renderItem={({ item: incident }) => (
@@ -75,7 +75,7 @@ export default function Incidents() {
             <Text style={styles.incidentValue}>
               {Intl.NumberFormat("pt-br", {
                 style: "currency",
-                currency: "BRL"
+                currency: "BRL",
               }).format(incident.value)}
             </Text>
 

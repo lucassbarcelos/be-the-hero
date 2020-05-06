@@ -12,6 +12,7 @@ export default function Logon() {
   const [id, setId] = useState();
 
   const history = useHistory();
+
   async function handleLogin(e) {
     e.preventDefault();
 
@@ -35,7 +36,7 @@ export default function Logon() {
           <input
             placeholder="Sua ID"
             value={id}
-            onChange={e => setId(e.target.value)}
+            onChange={(e) => setId(e.target.value)}
           />
           <button type="submit" className="button">
             Entrar
